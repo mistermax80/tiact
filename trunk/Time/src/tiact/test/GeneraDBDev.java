@@ -1,6 +1,5 @@
 package tiact.test;
 
-import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -20,8 +19,8 @@ public class GeneraDBDev {
 			return;
 		}
 		try {
-			String wd = System.getProperty("user.dir");
-			Connection c = DriverManager.getConnection("jdbc:hsqldb:file:"
+			//String wd = System.getProperty("user.dir");
+			DriverManager.getConnection("jdbc:hsqldb:file:"
 					+ "db/tiactdb_dev", "SA", "");
 		} catch (SQLException e) {
 			System.err.println("ERROR: failed to load HSQLDB JDBC driver.");
