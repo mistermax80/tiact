@@ -10,7 +10,6 @@ public final class Main {
 
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				// Create frame with title "Hello, World!"
 				Time mw = new Time();
 				mw.start();
 			}
