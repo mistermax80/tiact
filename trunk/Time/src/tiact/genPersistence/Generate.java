@@ -16,7 +16,7 @@ public class Generate {
 	public static void main(String[] args){
 
 		String path = "/home/massimo/workspace/lib/src/xdisk/persistence/";
-		String pack = "xdisk.persistence";
+		String pack = "tiact.persistence";
 		String schema = "xdisk";
 
 		Connection con = DatabaseConnectionFactory.getConnection();
