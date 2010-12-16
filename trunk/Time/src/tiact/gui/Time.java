@@ -1,4 +1,4 @@
-package time.gui;
+package tiact.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

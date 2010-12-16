@@ -1,4 +1,4 @@
-package time.gui;
+package tiact.gui;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -10,7 +10,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-import time.model.TableTodayModel;
+import tiact.model.TableTodayModel;
 
 public class Home extends JPanel {
 
