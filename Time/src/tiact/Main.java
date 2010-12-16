@@ -1,6 +1,6 @@
-package time;
+package tiact;
 
-import time.gui.Time;
+import tiact.gui.Time;
 
 import java.awt.EventQueue;
 

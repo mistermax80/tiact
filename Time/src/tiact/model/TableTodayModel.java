@@ -1,4 +1,4 @@
-package time.model;
+package tiact.model;
 
 import javax.swing.table.AbstractTableModel;
 
