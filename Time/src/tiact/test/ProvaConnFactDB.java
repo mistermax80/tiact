@@ -1,6 +1,6 @@
 package tiact.test;
 
-import tiact.persistence.core.DatabaseConnectionFactory;
+import tiact.persistence.database.DatabaseConnectionFactory;
 
 public class ProvaConnFactDB {
 
