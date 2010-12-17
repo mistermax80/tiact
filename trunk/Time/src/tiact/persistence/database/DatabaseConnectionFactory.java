@@ -1,4 +1,4 @@
-package tiact.persistence.core;
+package tiact.persistence.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
